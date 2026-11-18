@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exoplanet Explorer</title>
+    <title>Wednesday November 18th work by Ariane Taisne</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <header>
-        <h1>Exoplanet Explorer</h1>
-        <p>Discover planets beyond our solar system.</p>
+        <h1>Hadestown</h1>
+        <p>Hadestown is a musical wrote by Anais Mitchell about the story of Orpheus and Eurydice.
+        Its music was first written for a concept album in 2010, but it wasn't played on a scene before 2017 and it is mainly known for its 2019 production in Broadway.
+        It was filmed live in London in 2025 and was shown in movie theatres several countries in 2026, but it is still not legally available everywhere.</p>
+        <p>It is also my favorite musical ever and I played in a student production of it last year, which was a wonderful experience.</p>
         <nav aria-label="Main navigation">
             <a href="#catalogue">Planet catalogue</a>
             <a href="#methods">Discovery methods</a>
@@ -79,6 +82,7 @@
             </dl>
         </section>
         <footer>
+            <p>{{ workshop_message }}</p> 
             <p>
                 Data source: 
                 <a href="https://exoplanetarchive.ipac.caltech.edu/">
